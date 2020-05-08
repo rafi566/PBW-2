@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>after-login-Insert-Event</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/Dynamic-Table.css">
+    <link rel="stylesheet" href="assets/css/gradient-navbar-1.css">
+    <link rel="stylesheet" href="assets/css/gradient-navbar.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark navbar-expand-md" id="app-navbar">
+        <div class="container-fluid"><a class="navbar-brand" href="#"><img src="assets/img/noun_tesla_2972776.png" style="width: 80px;"></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div
+                class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="#">Profile</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#">Calendar</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#">My Agenda</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#" style="padding: 8px;border: 2px solid;border-radius: 15px 25px 25px 15px;">Log Out<img src="assets/img/noun_Log%20Out_2770808.png" style="width: 27px;"></a></li>
+                </ul>
+        </div>
+        </div>
+    </nav><div class="dynamic-table">
+    <div class="row clearfix">
+		<div class="col-md-12 column">
+			<table class="table table-bordered table-hover dynamic-table-tab_logic">
+				<thead>
+					<tr>
+						<th class="text-center">
+							No
+						</th>
+						<th class="text-center">
+							Events name
+						</th>
+						<th class="text-center">
+							Date
+						</th>
+						<th class="text-center">
+							Time-Start 
+						</th>
+						<th class="text-center">
+							Time-End
+						</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr class='dynamic-table-addr0' style='display:none;'>
+						<td>
+						<input type="text" name='name0'  placeholder='Insert Name' class="form-control"/>
+						</td>
+						<td>
+						<input type="text" name='dates' placeholder='Insert Date' class="form-control"/>
+						</td>
+						<td>
+						<input type="text" name='dateofbirth' placeholder='Insert Time Start' class="datetimepicker form-control"/>
+						</td>
+						<td>
+						<input type="text" name='mobile0' placeholder='Insert Time End' class="form-control"/>
+						</td>
+					</tr>
+                    <tr class='dynamic-table-addr1'></tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+	<a class="dynamic-table-add_row btn btn-default pull-left">Add Events</a><a class='dynamic-table-delete_row pull-right btn btn-default'>Delete Events</a>
+</div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/Dynamic-Table.js"></script>
+</body>
+
+</html>
